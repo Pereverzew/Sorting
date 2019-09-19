@@ -1,10 +1,12 @@
 package com.pereverzew.BubbleSort;
 
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
-import java.util.logging.Logger;
+
 
 public class BubbleSort <T extends Comparable>  {
-    private static final Logger log = Logger.getLogger(String.valueOf(BubbleSort.class));
+    private static final Logger log = Logger.getLogger(BubbleSort.class);
 
 
     public ArrayList<T> sort(ArrayList<T> array){
